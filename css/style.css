@@ -208,6 +208,17 @@ nav .nav-link.hijau {
   margin-top: 100px;
 }
 
+.divider img {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
 /* Contact */
 .contact {
   margin-top: 100px;
@@ -240,6 +251,25 @@ footer a {
   color: #303031;
 }
 
+footer a.active {
+  color: var(--hijau);
+  font-weight: 500;
+}
+
+footer a:hover {
+  color: var(--hijau);
+}
+
+footer .footer {
+  font-weight: 500;
+}
+
+footer .kanan {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 /* Tablet */
 @media (max-width: 992px) {
   .header {
@@ -258,5 +288,11 @@ footer a {
   .onboard .img img,
   .engage .img img {
     width: 80%;
+  }
+
+  footer .kanan {
+    display: block;
+    margin-top: 12px;
+    margin-right: 8px;
   }
 }
