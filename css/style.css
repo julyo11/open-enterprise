@@ -1,0 +1,262 @@
+body {
+  font-family: Inter, "sans-serif";
+}
+
+:root {
+  --hijau: #71a894;
+}
+
+/* Navbar */
+nav .logo {
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+nav .nav-link {
+  font-size: 18px;
+  color: #303031;
+  padding: 16px 12px;
+  margin: 0 12px;
+}
+
+nav .active {
+  color: var(--hijau) !important;
+  font-weight: 500;
+}
+
+nav .nav-link:hover {
+  color: var(--hijau) !important;
+}
+
+nav .nav-link.hijau {
+  color: var(--hijau);
+}
+
+/* Header */
+.header {
+  margin-top: 80px;
+}
+
+.header .header-title h1 {
+  font-size: 56px;
+  color: #303031;
+  font-weight: 600;
+}
+
+.header .header-title p {
+  font-size: 20px;
+  color: #66645e;
+}
+
+.header .header-title button {
+  background-color: #71a894;
+  outline: none;
+  padding: 12px 28px;
+}
+
+.header .header-title button:hover {
+  background-color: #69bd9e;
+}
+
+.header .header-title button a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header .header-image img {
+  margin-top: -8em;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  margin-top: 80px;
+}
+
+.cards .title {
+  text-align: center;
+}
+
+.cards .title h1 {
+  font-size: 40px;
+  color: #303013;
+  font-weight: 600;
+}
+
+.cards .title p {
+  font-size: 18px;
+  color: #303013;
+}
+
+.cards .card-content {
+  background-color: #fafafa;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 0px 12px;
+}
+
+.cards .card-content img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.cards .card-content h3 {
+  font-weight: 600;
+  color: #303013;
+  font-size: 24px;
+}
+
+.cards .card-content p {
+  color: #303013;
+  font-size: 18px;
+}
+
+/* Kickstart */
+.kickstart,
+.onboard,
+.engage,
+.start {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kickstart h1,
+.onboard h1,
+.engage h1,
+.help-us h1,
+.start h1 {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.kickstart p,
+.onboard p,
+.engage p,
+.help-us p,
+.start p {
+  font-size: 18px;
+}
+
+.kickstart .img img,
+.onboard .img img,
+.engage .img img {
+  width: 80%;
+}
+
+/* Help Us */
+.help-us {
+  margin-top: 100px;
+}
+
+.help-us img {
+  width: 100%;
+}
+
+.help-us .button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.start .img img {
+  width: 100%;
+}
+
+.start a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.start a button {
+  padding: 16px 24px;
+  box-shadow: 0px 8px 250px rgba(113, 168, 148, 0.2);
+  background: #71a894;
+  color: #fff;
+  font-weight: 500;
+}
+
+.start a button:hover {
+  background: #558372;
+}
+
+.help-us .button a button {
+  font-weight: 500;
+  padding: 20px 32px;
+  font-size: 18px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.12);
+  outline: none;
+}
+
+.help-us .button a button:hover {
+  background: rgb(80, 80, 80);
+}
+
+.divider {
+  margin-top: 100px;
+}
+
+/* Contact */
+.contact {
+  margin-top: 100px;
+}
+
+.contact h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.contact p {
+  font-size: 18px;
+}
+
+.contact button {
+  width: 100%;
+  outline: none;
+  font-weight: 500;
+  background: #71a894;
+  color: #fff;
+}
+
+footer {
+  margin-top: 120px;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #303031;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .header {
+    margin-top: 32px;
+  }
+  .header .header-title h1 {
+    font-size: 32px;
+  }
+
+  .header .header-image img {
+    width: 90%;
+    margin-top: 8px;
+  }
+
+  .kickstart .img img,
+  .onboard .img img,
+  .engage .img img {
+    width: 80%;
+  }
+}
